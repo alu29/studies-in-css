@@ -12,7 +12,7 @@
   float: left;
   width: 50%;
   padding: 10px;
-  background-color:#FFFFFF;
+  background-color: black;
   
 }
 
@@ -28,24 +28,43 @@ body {
   display: table;
   clear: both;
 }
-</style>
-</head>
-<body>
 
-<h2>Comparing Klimt and Schiele</h2>
+</style>
+
+<h2 style="text-align:center;">Comparing Klimt and Schiele</h2>
 
 <div class="row">
   <div class="column">
-    <h2>Let's look at Klimt first</h2>
+    <h2>Klimt:</h2>
     <p>The Kiss</p>
-    <img src="The-Kiss.jpg" width=250>
+    <img src="The-Kiss.jpg" width=450>
+    <p> How does the Kiss make you feel?</p>
+    <ul style="list-style-type:none;">
+        <li><label for="Romantic"><input id="Romantic" type="radio" name="Romantic-Nostalgic-Mournful-Unmoved-Other"> Romantic</label></li>
+        <li><label for="Nostalgic"><input id="Nostalgic" type="radio" name="Romantic-Nostalgic-Mournful-Unmoved-Other"> Nostalgic</label></li>
+        <li><label for="Mournful"><input id="Mournful" type="radio" name="Romantic-Nostalgic-Mournful-Unmoved-Other"> Mournful</label><br></li>
+        <li><label for="Unmoved"><input id="Unmoved" type="radio" name="Romantic-Nostalgic-Mournful-Unmoved-Other"> Unmoved</label><br></li>
+        <li><label for="Other" input id="other" value="">Other <input type="text" name="other_Romantic-Nostalgic-Mournful-Unmoved-Other"/></label></head></li>
+        <input type="submit">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+    </ul>
   </div>
   <div class="column">
-    <h2>And now Schiele</h2>
+    <h2>Schiele:</h2>
     <p>The Scream</p>
-    <img src="The-Scream.jpg" width=250>
+    <img src="The-Scream.jpg" width=450>
+    <p>How does the Scream make you feel?</p>
+    <ul style="list-style-type:none;">
+            <li><label for="Anxious"><input id="Romantic" type="radio" name="Anxious-Fearful-Uneasy-Confused-Other"> Romantic</label></li>
+            <li><label for="Fearful"><input id="Nostalgic" type="radio" name="Anxious-Fearful-Uneasy-Confused-Other"> Nostalgic</label></li>
+            <li><label for="Uneasy"><input id="Mournful" type="radio" name="Anxious-Fearful-Uneasy-Confused-Other"> Mournful</label><br></li>
+            <li><label for="Confused"><input id="Unmoved" type="radio" name="Anxious-Fearful-Uneasy-Confused-Other"> Unmoved</label><br></li>
+            <li><label for="Other" input id="other" value="">Other <input type="text" name="other_Anxious-Fearful-Uneasy-Confused-Other"/></label></head></li>
+            <input type="submit">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+    </ul>
   </div>
 </div>
+
+
 
 </body>
 </html>
